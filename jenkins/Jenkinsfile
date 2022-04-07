@@ -16,7 +16,7 @@ pipeline {
                 echo 'I am deploying'
             }
         }
-        stage('Deploy again') {
+        stage('Deploy againn') {
             steps {
                 echo 'i am at last!!!!!!!!!!!'
             }
