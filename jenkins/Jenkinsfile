@@ -16,11 +16,6 @@ pipeline {
                 echo 'I am deploying'
             }
         }
-        stage('Delivery') {
-            steps {
-                echo 'I am delivering'
-            }
-        }
         stage('Deploy againn') {
             steps {
                 echo 'i am at last!!!!!!!!!!!'
